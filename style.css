@@ -1,7 +1,4 @@
-* {
-  background: white;
-  outline: 1px solid black;
-}
+
 
 li {
   list-style: none;
@@ -12,11 +9,16 @@ body {
 }
 
 header {
-  width: 960px;
+  width: 1100px;
   height: 100px;
   margin: auto;
+  background: white;
 }
 
+header> div {
+  width: 960px;
+  margin: auto;
+}
 header div> * {
   display: inline-block;
 
@@ -35,27 +37,86 @@ header div ul li {
 
 main {
   margin: auto;
-  width: 960px;
-  height: 1000px;
+  width: 1100px;
+  height: 1500px;
   margin-top: 0px;
+  background: white;
+}
+
+main>div {
+  width: 960px;
+  margin: auto;
+}
+
+main h1 {
+  margin-left: 30px;
+}
+.date_published {
+  height: 15px;
+  width: 900px;
+  background: pink;
+  margin-left: 30px;
+}
+
+.date_published>* {
+  display: inline-block;
+}
+
+.date_published p {
+  font-size: 10px;
+}
+
+.date_published:first-child {
+  float: left;
+
+}
+
+
+img[src="print-icon.png"] {
+  float:right;
 }
 
 img[src="choco-pizza.png"] {
-  margin-left: auto;
+  float: left;
   margin-top: 30px;
-
+  margin-left: 30px;
 }
 
 .ingredients {
   width: 960px;
-  height: 200px;
+  height: 300px;
+  margin: auto;
   background: url("list-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .ingredients > div {
+  height: 170px;
+  width: 400px;
   display: inline-block;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .ingredients > div > * {
   display: block;
+}
+
+.bottom {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.bottom> * {
+  display: inline-block;
+}
+
+button {
+  width: 150px;
+  height:40px;
+  float: right;
+  margin-top: 30px;
+  border: none;
+  background: red;
 }
