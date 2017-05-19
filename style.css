@@ -1,0 +1,27 @@
+* {
+  outline: 1px solid black;
+  background: white;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: black;
+}
+
+header {
+  width: 960px;
+  margin: auto;
+}
+
+header div > * {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
