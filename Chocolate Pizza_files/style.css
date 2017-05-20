@@ -191,27 +191,15 @@ main>div>:nth-child(4)>p {
 
 input {
   background: none;
-  margin: 0px;
-  border: 0px;
 }
 
 .ingredients>div> label {
   display: block;
-  font-size: 25px;
+  margin-left: 40px;
+  font-size: 20px;
   color: #736649;
   font-family: "Dekko", cursive;
-  height: 25px;
-  width: 400px;
 }
-
-.first_list label {
-    margin-left: 40px;
-}
-
-label {
-  margin-top: 5px;
-}
-
 
 .ingredients>:last-child {
   margin-right: 120px;
@@ -225,7 +213,7 @@ label {
 
 .bottom {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .bottom * {
