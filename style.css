@@ -170,6 +170,7 @@ main>:last-child h1{
 main>div>:nth-child(4)>p {
   margin-top: 30px;
   text-indent: 2em;
+  font-size: 20px;
   color: #545B62;
 }
 
