@@ -1,3 +1,5 @@
+
+
 li {
   list-style: none;
 }
@@ -7,14 +9,14 @@ body {
 }
 
 header {
-  width: 960px;
+  width: 1020px;
   height: 100px;
   margin: auto;
   background: white;
 }
 
 header> div {
-  width: 960px;
+  width: 1020px;
   margin: auto;
   outline: 1px solid black;
 }
@@ -99,15 +101,15 @@ header p {
 
 
 header:last-child {
-  width: 900px;
+  width: 960px;
   height: 2px;
   background: grey;
 }
 
 main {
   margin: auto;
-  width: 960px;
-  height: 1625px;
+  width: 1020px;
+  height: 1675px;
   margin-top: 0px;
   background: white;
 }
@@ -115,15 +117,15 @@ main {
 .border {
   margin: 0;
   margin-left: 30px;
-  width: 900px;
+  width: 960px;
   height: 15px;
-  background: url("border-img.png");
+  background: url("img/border-img.png");
 
 }
 
 main>:last-child {
   position: relative;
-  width: 900px;
+  width: 969px;
   margin: auto;
   margin-left: 30px;
 }
@@ -136,8 +138,13 @@ main>:last-child h1{
 
 }
 
+img[src="img/choco-pizza.png"]{
+  width: 960px;
+
+}
+
 .date_published {
-  width: 900px;
+  width: 960px;
   height: 15px;
   margin-bottom: 20px;
   padding: 0px;
@@ -179,10 +186,11 @@ main>div>:nth-child(4)>p {
 
 .ingredients {
   position: relative;
-  width: 900px;
-  height: 300px;
+  width: 960px;
+  height: 320px;
   margin-top: 30px;
-  background: url("img/list-bg.png")
+  background: url("img/list-bg.png");
+  background-size: cover;
 }
 
 .ingredients>div {
@@ -190,7 +198,7 @@ main>div>:nth-child(4)>p {
   margin-right: 30px;
   width: 300px;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 23px;
 }
 
 input {
@@ -201,11 +209,11 @@ input {
 
 .ingredients>div> label {
   display: block;
-  font-size: 25px;
+  font-size: 30px;
   color: #736649;
   font-family: "Dekko", cursive;
   height: 25px;
-  width: 400px;
+  width:450px;
 }
 
 .first_list label {
@@ -213,13 +221,18 @@ input {
 }
 
 label {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 
 .ingredients>:last-child {
-  margin-right: 120px;
+  margin-right: 200px;
   right: 0;
+}
+
+.ingredients>:last-child>:last-child {
+  line-height: 35px;
+  margin-top: 15px;
 }
 
 .border.two {
@@ -272,7 +285,7 @@ button {
 }
 
 footer>:first-child {
-  width: 960px;
+  width: 1020px;
   height: 150px;
   margin: auto;
   margin-top: 0px;
@@ -284,6 +297,7 @@ footer>:first-child>:first-child {
   height: 50px;
   width: 960px;
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 
