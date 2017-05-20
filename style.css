@@ -237,6 +237,14 @@ label {
   float: left;
 }
 
+.bottom h3, .bottom p {
+  color: #4B4A53;
+}
+
+.bottom p {
+  font-size: 20px;
+}
+
 .bottom>:nth-child(2) {
   float: left;
   margin-left: 10px;
