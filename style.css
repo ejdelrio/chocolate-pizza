@@ -1,6 +1,4 @@
-* {
-  outline: 1ps solid black;
-}
+
 li {
   list-style: none;
 }
@@ -79,11 +77,11 @@ header h1 {
   text-align: left;
   margin: 0px;
   padding: 0px;
-  font-size: 30px;
+  font-size: 45px;
   height: 30px;
-  margin-top: 30px;
+  margin-top: 18px;
   margin-left: 5px;
-  font-family: brush script mt, cursive;
+  font-family: "Yellowtail", cursive;
 }
 
 header p {
@@ -202,7 +200,7 @@ main>div>:nth-child(4)>p {
 }
 
 .bottom {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .bottom * {
@@ -210,10 +208,72 @@ main>div>:nth-child(4)>p {
   padding: 0px;
 }
 
-.bottom>* {
-  display: inline-block;
+.bottom>img {
+  float: left;
+}
+
+.bottom>:nth-child(2) {
+  float: left;
+  margin-left: 10px;
+  width: 550px;
 }
 
 button {
   float: right;
+  height: 50px;
+  width: 180px;
+  background: #BA745C;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+footer>:first-child {
+  width: 960px;
+  height: 150px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 0px;
+  background: white;
+}
+
+footer>:first-child>:first-child {
+  height: 50px;
+  width: 960px;
+  margin-bottom: 10px;
+}
+
+footer>div>:first-child>* {
+  float: left;
+  margin-left: auto;
+}
+
+.thin_border {
+  width: 425px;
+  height: 1px;
+  margin-top: 16px;
+  background: grey;
+}
+
+.thin_border.first {
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+footer img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.license {
+  height: 50px;
+  width: 960px;
+  margin: auto;
+}
+
+
+footer>div:last-child p{
+  text-align: center;
+  margin: 0;
+
 }
