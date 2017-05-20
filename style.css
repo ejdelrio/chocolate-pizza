@@ -132,6 +132,7 @@ main>:last-child h1{
   margin: 0px;
   margin-top: 50px;
   font-family: "Anton", sans-serif;
+  height: 50px;
 
 }
 
@@ -139,6 +140,8 @@ main>:last-child h1{
   width: 900px;
   height: 15px;
   margin-bottom: 20px;
+  padding: 0px;
+  margin-top: -10px;
 }
 
 .date_published * {
@@ -206,7 +209,7 @@ input {
 }
 
 .first_list label {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 label {
