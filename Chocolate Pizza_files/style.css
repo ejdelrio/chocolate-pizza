@@ -107,7 +107,7 @@ header:last-child {
 main {
   margin: auto;
   width: 960px;
-  height: 1625px;
+  height: 1500px;
   margin-top: 0px;
   background: white;
 }
@@ -132,7 +132,6 @@ main>:last-child h1{
   margin: 0px;
   margin-top: 50px;
   font-family: "Anton", sans-serif;
-  height: 50px;
 
 }
 
@@ -140,8 +139,6 @@ main>:last-child h1{
   width: 900px;
   height: 15px;
   margin-bottom: 20px;
-  padding: 0px;
-  margin-top: -10px;
 }
 
 .date_published * {
@@ -173,7 +170,6 @@ main>:last-child h1{
 main>div>:nth-child(4)>p {
   margin-top: 30px;
   text-indent: 2em;
-  font-size: 20px;
   color: #545B62;
 }
 
@@ -195,27 +191,15 @@ main>div>:nth-child(4)>p {
 
 input {
   background: none;
-  margin: 0px;
-  border: 0px;
 }
 
 .ingredients>div> label {
   display: block;
-  font-size: 25px;
+  margin-left: 40px;
+  font-size: 20px;
   color: #736649;
   font-family: "Dekko", cursive;
-  height: 25px;
-  width: 400px;
 }
-
-.first_list label {
-    margin-left: 60px;
-}
-
-label {
-  margin-top: 5px;
-}
-
 
 .ingredients>:last-child {
   margin-right: 120px;
@@ -229,7 +213,7 @@ label {
 
 .bottom {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .bottom * {
@@ -239,19 +223,6 @@ label {
 
 .bottom>img {
   float: left;
-}
-
-.bottom h3 {
-  margin-bottom: 10px;
-
-}
-
-.bottom h3, .bottom p {
-  color: #4B4A53;
-}
-
-.bottom p {
-  font-size: 20px;
 }
 
 .bottom>:nth-child(2) {
@@ -320,4 +291,5 @@ footer>div:last-child p{
   text-align: center;
   margin: 0;
   color: #98999A;
+
 }
