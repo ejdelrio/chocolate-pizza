@@ -1,4 +1,5 @@
 
+
 li {
   list-style: none;
 }
@@ -17,10 +18,11 @@ header {
 header> div {
   width: 960px;
   margin: auto;
+  outline: 1px solid black;
 }
 
 header>div>:first-child {
-  height: 100px;
+  height: 42px;
   width: 45px;
   float: left;
   margin-left: 30px;
@@ -95,6 +97,12 @@ header p {
   margin-top: 0px;
 }
 
+header:last-child {
+  width: 900px;
+  height: 2px;
+  background: grey;
+}
+
 main {
   margin: auto;
   width: 960px;
@@ -103,56 +111,57 @@ main {
   background: white;
 }
 
-main>div {
-  width: 960px;
-  margin: auto;
+.wont_work {
+  margin-left: 30px;
+  width: 900px;
+  height: 15px;
+  background: url("border-img.png");
+
 }
 
-
-
-
-.date_published {
-  height: 10px;
+main>:last-child {
+  position: relative;
   width: 900px;
+  margin: auto;
   margin-left: 30px;
 }
 
-.date_published>* {
+main>:last-child h1{
+  margin: 0px;
+  margin-top: 50px;
+
+}
+
+.date_published {
+  width: 900px;
+  height: 15px;
+  margin-bottom: 20px;
+}
+
+.date_published * {
   display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
 
 .date_published p {
   font-size: 10px;
 }
 
-
-.date_published:first-child {
+.date_published>:first-child {
   float: left;
-
+  text-align: left;
 }
 
-#wont_work {
+.date_published>:nth-child(2) {
   float: right;
 }
 
-
-img[src="print-icon.png"] {
-  float:right;
-  margin-top: 12px;
+.date_published>:last-child {
+  float: right;
 }
 
-img[src="choco-pizza.png"] {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-main>div>:nth-child(3) {
-  width: 900px;
-  height: 250px;
-  margin: auto;
-}
-
-main>div>:nth-child(3) p{
+main>div>:nth-child(4)>p {
   margin-top: 30px;
   text-indent: 2em;
 }
@@ -160,37 +169,18 @@ main>div>:nth-child(3) p{
 .ingredients {
   width: 900px;
   height: 300px;
-  margin-left: 30px;
-  background: url("list-bg.png");
-}
-
-.ingredients > div {
-  height: 170px;
-  width: 400px;
-  display: inline-block;
   margin-top: 30px;
-  margin-left: 30px;
+  background: url("list-bg.png")
 }
 
-.ingredients > div > * {
+.ingredients>div {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.ingredients>div> label {
   display: block;
-}
-
-.bottom {
-  width: 900px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.bottom> * {
-  display: inline-block;
-}
-
-button {
-  width: 150px;
-  height:40px;
-  float: right;
-  margin-top: 30px;
-  border: none;
-  background: red;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 25px;
 }
