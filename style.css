@@ -107,7 +107,7 @@ header:last-child {
 main {
   margin: auto;
   width: 960px;
-  height: 1500px;
+  height: 1625px;
   margin-top: 0px;
   background: white;
 }
@@ -312,5 +312,4 @@ footer>div:last-child p{
   text-align: center;
   margin: 0;
   color: #98999A;
-
 }
