@@ -5,8 +5,12 @@ li {
 }
 
 body {
-  background: black;
+  width: 1020px;
+  height: 2000px;
+  margin: auto;
+  outline: 1px solid black;
 }
+
 
 header {
   width: 1020px;
@@ -18,7 +22,6 @@ header {
 header> div {
   width: 1020px;
   margin: auto;
-  outline: 1px solid black;
 }
 
 header>div>:first-child {
@@ -246,26 +249,31 @@ label {
   margin-bottom: 20px;
 }
 
-.bottom * {
+
+
+.bottom>img {
+  float: left;
   margin: 0px;
   padding: 0px;
 }
 
-.bottom>img {
-  float: left;
-}
-
 .bottom h3 {
   margin-bottom: 10px;
+  font-size: 20px;
 
 }
 
 .bottom h3, .bottom p {
   color: #4B4A53;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 10px;
 }
 
 .bottom p {
   font-size: 20px;
+  margin-top: 10px;
+  width: 560px;
 }
 
 .bottom>:nth-child(2) {
@@ -278,6 +286,7 @@ button {
   float: right;
   height: 50px;
   width: 180px;
+  margin-top: 10px;
   background: #BA745C;
   color: white;
   border: none;
