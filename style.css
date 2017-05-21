@@ -307,14 +307,13 @@ footer>div>:first-child>* {
 }
 
 .thin_border {
-  width: 425px;
+  width: 459px;
   height: 1px;
   margin-top: 16px;
   background: #98999A;
 }
 
 .thin_border.first {
-  margin-left: 30px;
   margin-right: 5px;
 }
 
