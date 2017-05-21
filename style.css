@@ -198,7 +198,7 @@ main>div>:nth-child(4)>p {
   margin-right: 30px;
   width: 300px;
   position: absolute;
-  margin-top: 23px;
+  margin-top: 30px;
 }
 
 input {
@@ -209,11 +209,11 @@ input {
 
 .ingredients>div> label {
   display: block;
-  font-size: 30px;
+  font-size: 25px;
   color: #736649;
-  font-family: "Dekko", cursive;
+  font-family: "Patrick Hand", cursive;
   height: 25px;
-  width:450px;
+  width: 350px;
 }
 
 .first_list label {
@@ -232,7 +232,7 @@ label {
 
 .ingredients>:last-child>:last-child {
   line-height: 35px;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .border.two {
