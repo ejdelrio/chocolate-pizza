@@ -6,9 +6,10 @@ li {
 
 body {
   width: 1020px;
-  height: 2000px;
+  height: auto;
   margin: auto;
   outline: 1px solid black;
+  background: black;
 }
 
 
